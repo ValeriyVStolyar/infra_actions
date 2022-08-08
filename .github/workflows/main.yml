@@ -76,7 +76,8 @@ jobs:
         uses: docker/build-push-action@v2 
         with:
           push: true
-          tags: vvst/infra_action:latest
+          # tags: vvst/infra_action:latest
+          tags: vvst/infra_action:v1.01
 
   deploy:
     runs-on: ubuntu-latest
